@@ -6,8 +6,7 @@ import csv
 #初始信息
 headers={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0',
-    'Host':'202.200.112.202',
-    'Referer':'http://202.200.112.202/(1h1db2zpz2plj045fc0fxl55)/default2.aspx'
+    'Host':' *************** '
 }
 username='*********'
 password='*********'
@@ -28,7 +27,7 @@ captcha=session.get(captcha_url).content
 with open('e://captcha.jpg','wb') as f:
     f.write(captcha)
     
-#输入验证码
+#手动输入验证码
 input('Enter the captcha:')
 
 #登录过程
