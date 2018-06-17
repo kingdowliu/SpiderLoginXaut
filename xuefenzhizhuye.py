@@ -49,8 +49,7 @@ response3=session.get(url_1,headers=headers)
 if response3.status_code==200:
     headers2={
         'Connection':'keep-alive',
-        'Host':'202.200.112.202',
-        'Referer':'http://202.200.112.202/(3cw4ei553wrqxz452v5goyu3)/xs_main.aspx?xh=3170932008',
+        'Host':'*****************',
         'Upgrade-insecure-Requests':'1',
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0'
     }
