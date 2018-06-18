@@ -11,8 +11,8 @@ headers={
 username='*********'
 password='*********'
 login_url='http://202.200.112.202/(e30ego55rerta245paemxj2f)/Default2.aspx'
-url_1='http://202.200.112.202/(3cw4ei553wrqxz452v5goyu3)/xs_main.aspx?xh=3170932008'
-url_get_kaoshi='http://202.200.112.202/(3cw4ei553wrqxz452v5goyu3)/xskscx.aspx?xh=3170932008&xm=%C1%F5%D7%E6%B7%E5&gnmkdm=N121604'
+url_1='http://202.200.112.202/(3cw4ei553wrqxz452v5goyu3)/xs_main.aspx?xh='+username
+url_get_kaoshi='http://202.200.112.202/(3cw4ei553wrqxz452v5goyu3)/xskscx.aspx?xh='+username+'&xm=%C1%F5%D7%E6%B7%E5&gnmkdm=N121604'
 
 #获取验证码
 session=requests.Session()
