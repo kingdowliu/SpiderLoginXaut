@@ -70,5 +70,6 @@ if response3.status_code==200:
         writer=csv.writer(f)
         for i in range(len(uli)):
             writer.writerow([uli[i][0],uli[i][1],uli[i][2],uli[i][3],uli[i][4],uli[i][6],uli[i][7]])
-    print('写入成功')
+    if uli:print('写入成功')
+    print('写入失败')
 else:print('登录失败')
