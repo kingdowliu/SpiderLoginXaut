@@ -28,7 +28,7 @@ with open('e://captcha.jpg','wb') as f:
     f.write(captcha)
     
 #手动输入验证码
-input('Enter the captcha:')
+captcha=input('Enter the captcha:')
 
 #登录过程
 post_data={
