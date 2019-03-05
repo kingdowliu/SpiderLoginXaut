@@ -74,10 +74,11 @@ if response3.status_code == 200:
         for td in tds:
             ui.append(td.text())
         uli.append(ui)
-    with open('e://kaoshi.csv', 'w') as f:
+    with open('kaoshi.csv', 'w') as f:
         writer = csv.writer(f)
         for i in range(len(uli)):
             writer.writerow([uli[i][0], uli[i][1], uli[i][2], uli[i][3], uli[i][4], uli[i][6], uli[i][7]])
     if uli: print('写入成功')
 else:
     print('登录失败')
+    
